@@ -1,5 +1,5 @@
 //
-//  FriendViewController.swift
+//  FriendsViewController.swift
 //  Liftify
 //
 //  Created by benson on 6/23/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FriendViewController: UIViewController {
+class FriendsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

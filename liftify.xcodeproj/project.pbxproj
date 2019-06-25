@@ -14,7 +14,7 @@
 		2672580F22C03DB7001CA935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2672580E22C03DB7001CA935 /* Assets.xcassets */; };
 		2672581222C03DB7001CA935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2672581022C03DB7001CA935 /* LaunchScreen.storyboard */; };
 		2672581D22C03DB7001CA935 /* LiftifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2672581C22C03DB7001CA935 /* LiftifyTests.swift */; };
-		26B21D2122C1D38200C743D5 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B21D2022C1D38200C743D5 /* ThirdViewController.swift */; };
+		26B21D2122C1D38200C743D5 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B21D2022C1D38200C743D5 /* FriendsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 		2672581822C03DB7001CA935 /* LiftifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiftifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2672581C22C03DB7001CA935 /* LiftifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftifyTests.swift; sourceTree = "<group>"; };
 		2672581E22C03DB7001CA935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26B21D2022C1D38200C743D5 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		26B21D2022C1D38200C743D5 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +81,10 @@
 		2672580422C03DB4001CA935 /* liftify */ = {
 			isa = PBXGroup;
 			children = (
+				26B21D2922C1E05900C743D5 /* First */,
+				26B21D2822C1E05100C743D5 /* Second */,
+				26B21D2722C1DF0100C743D5 /* Friends */,
 				2672580522C03DB4001CA935 /* AppDelegate.swift */,
-				2672580722C03DB4001CA935 /* FirstViewController.swift */,
-				2672580922C03DB4001CA935 /* SecondViewController.swift */,
-				26B21D2022C1D38200C743D5 /* ThirdViewController.swift */,
 				2672580B22C03DB4001CA935 /* Main.storyboard */,
 				2672580E22C03DB7001CA935 /* Assets.xcassets */,
 				2672581022C03DB7001CA935 /* LaunchScreen.storyboard */,
@@ -100,6 +100,30 @@
 				2672581E22C03DB7001CA935 /* Info.plist */,
 			);
 			path = liftifyTests;
+			sourceTree = "<group>";
+		};
+		26B21D2722C1DF0100C743D5 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				26B21D2022C1D38200C743D5 /* FriendsViewController.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		26B21D2822C1E05100C743D5 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				2672580922C03DB4001CA935 /* SecondViewController.swift */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		26B21D2922C1E05900C743D5 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				2672580722C03DB4001CA935 /* FirstViewController.swift */,
+			);
+			path = First;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,7 +229,7 @@
 			files = (
 				2672580A22C03DB4001CA935 /* SecondViewController.swift in Sources */,
 				2672580622C03DB4001CA935 /* AppDelegate.swift in Sources */,
-				26B21D2122C1D38200C743D5 /* ThirdViewController.swift in Sources */,
+				26B21D2122C1D38200C743D5 /* FriendsViewController.swift in Sources */,
 				2672580822C03DB4001CA935 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

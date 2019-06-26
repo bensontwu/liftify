@@ -1,0 +1,6 @@
+framework module Pods_Liftify {
+  umbrella header "Pods-Liftify-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>186907761221-c13s8jhoc8avl8d4ptort1pp442h9iti.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.186907761221-c13s8jhoc8avl8d4ptort1pp442h9iti</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC5lmPqEnJ_gEQ-bU42J059EQUjtjS_tTA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>186907761221</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.wu.liftify</string>
+	<key>PROJECT_ID</key>
+	<string>liftify-1561523426122</string>
+	<key>STORAGE_BUCKET</key>
+	<string>liftify-1561523426122.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:186907761221:ios:ed32cb303837c9fd</string>
+	<key>DATABASE_URL</key>
+	<string>https://liftify-1561523426122.firebaseio.com</string>
+</dict>
+</plist>

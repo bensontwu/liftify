@@ -41,6 +41,11 @@ class SignUpViewController: UIViewController {
             Auth.auth().createUser(withEmail: email.text!, password: password.text!) { (user, error) in
                 if error == nil {
                     self.performSegue(withIdentifier: "signupToHome", sender: self)
+                    
+                    // Save the new user as a document in the Users collection
+                    let userData: [String: Any] = ["email": self.email.text!]
+                    let userDocRef = Firestore.firestore().document("users/\(self.email.text!)")
+                    userDocRef.setData(userData)
                 } else {
                     let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
                     let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)

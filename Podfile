@@ -9,6 +9,7 @@ target 'Liftify' do
   pod 'GoogleSignIn'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
 
   target 'LiftifyTests' do
     inherit! :search_paths

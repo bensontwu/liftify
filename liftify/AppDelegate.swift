@@ -40,7 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     }
     
     
-    
+     
     // MARK: - AppDelegate methods
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -48,6 +48,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         
         // Initialize Firebase
         FirebaseApp.configure()
+        
+        // Initialize Firebase Firestore
+        let db = Firestore.firestore()
         
         // Initialize sign-in
         GIDSignIn.sharedInstance().clientID = "186907761221-c13s8jhoc8avl8d4ptort1pp442h9iti.apps.googleusercontent.com"

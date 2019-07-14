@@ -11,6 +11,7 @@
 		2658432D22C332B800C160CC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658432C22C332B800C160CC /* LoginViewController.swift */; };
 		2658432F22C332C500C160CC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658432E22C332C500C160CC /* SignUpViewController.swift */; };
 		2658433122C3377000C160CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2658433022C3377000C160CC /* GoogleService-Info.plist */; };
+		2669A7B822D5A5AB005B6CB2 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2669A7B722D5A5AB005B6CB2 /* Set.swift */; };
 		2672580622C03DB4001CA935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2672580522C03DB4001CA935 /* AppDelegate.swift */; };
 		2672580822C03DB4001CA935 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2672580722C03DB4001CA935 /* FirstViewController.swift */; };
 		2672580A22C03DB4001CA935 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2672580922C03DB4001CA935 /* SecondViewController.swift */; };
@@ -39,6 +40,7 @@
 		2658432C22C332B800C160CC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2658432E22C332C500C160CC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		2658433022C3377000C160CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2669A7B722D5A5AB005B6CB2 /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
 		2672580222C03DB4001CA935 /* Liftify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liftify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2672580522C03DB4001CA935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2672580722C03DB4001CA935 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				2658432A22C332A900C160CC /* StartViewController.swift */,
 				2658432C22C332B800C160CC /* LoginViewController.swift */,
 				2658432E22C332C500C160CC /* SignUpViewController.swift */,
+				2669A7B722D5A5AB005B6CB2 /* Set.swift */,
 			);
 			path = liftify;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 				26B21D2B22C1E3AC00C743D5 /* Friend.swift in Sources */,
 				26B21D2122C1D38200C743D5 /* FriendsViewController.swift in Sources */,
 				2672580822C03DB4001CA935 /* FirstViewController.swift in Sources */,
+				2669A7B822D5A5AB005B6CB2 /* Set.swift in Sources */,
 				2658432B22C332A900C160CC /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
